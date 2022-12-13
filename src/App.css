@@ -1,0 +1,38 @@
+body{
+  background-color: #fdd500;
+}
+.container{
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.crossed{
+  text-decoration: line-through 2px #fdd500;
+  background-color: black;
+  color: white;
+}
+ul{
+  list-style: none;
+}
+button{
+  padding:10px;
+  width:300px;
+  background-color: black;
+  color:white;
+  font-size: 25px;
+  font-family: 'Unbounded', cursive;
+}
+h1{
+  font-family: 'Unbounded', cursive;
+}
+.input{
+  flex:1;
+  padding:10px;
+  margin-left:160px;
+  margin-right:160px; 
+  font-family: 'Unbounded', cursive;
+}
+.list{
+  font-family: 'Unbounded', cursive;
+  font-size: 15px;
+}
